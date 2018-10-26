@@ -22,3 +22,44 @@ for i = 1:3
     end
 end
 disp(B)
+
+>> s1 = 'String'
+
+s1 =
+
+    'String'
+
+>> s2 = 'Example'
+
+s2 =
+
+    'Example'
+
+>> [s1 s2]
+
+ans =
+
+    'StringExample'
+
+>> [s1;s1]
+
+ans =
+
+  2×6 char 数组
+
+    'String'
+    'String'
+>> s = 'aardvark';
+>> 'a' == s
+
+ans =
+
+  1×8 logical 数组
+
+   1   1   0   0   0   1   0   0
+
+>> s(s == 'a') = 'Z'
+
+s =
+
+    'ZZrdvZrk'
