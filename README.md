@@ -63,3 +63,12 @@ ans =
 s =
 
     'ZZrdvZrk'
+>> for j = 1:l
+s1(j) = s2(l);
+l = l-1;
+end
+>> s1
+
+s1 =
+
+    'gnirtS'
